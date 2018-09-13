@@ -9,7 +9,9 @@ see where the circle ends up when the worker threads are done.
 
 The purpose of this app is to demonstrate a simple example of how threading might
 work to take advantage of multiple cpu cores, and to demonstrate some of the issues
-involved when using threads.  This code is not finished yet.
+involved when using threads.  This code is not finished yet, and the behavior is not
+yet what I'm trying for, but the code builds and the circle moves across the screen.
+Once I get it doing what I'm looking for, I'll update this readme.
 
 This code is a refactor of https://github.com/isc1/QtThread01 by https://www.reddit.com/user/jcelerier
 which is intended to correct design problems with that code, much thanks to jcelerier for taking
